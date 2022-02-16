@@ -788,8 +788,8 @@ nav {
 }
 /* Slide style */
 .md-slide  li {
-    height: 650px;
-    max-height: 650px;
+    height: 950px;
+    max-height: 750px;
 }
 .md-slide-wrapper {
     position: relative;
@@ -801,7 +801,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     width: 1920px;
-    height: 650px;
+    height: 950px;
     max-width: none;
     position: absolute;
     left: 50%;
@@ -813,7 +813,9 @@ nav {
     -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
-
+.fr img{
+    object-fit: contain;
+}
 .content-slide {
     top: 0;
     text-align: center;
@@ -1191,7 +1193,7 @@ select option.option-test:hover {background-color: #F00;}
 .icon-phone                 {background-position: 0 -80px ; width: 8px; height: 24px;}
 
 /* Booking Style */
-.md-home .check-availability {height: 146px; background-color:  rgb(65, 73, 138);}
+.md-home .check-availability {height: 146px; background-color:  #242424}
 .check-availability .grid_3 {
     background-color: #242424; 
     position: relative;
@@ -1209,7 +1211,7 @@ select option.option-test:hover {background-color: #F00;}
 }
 .check-availability .grid_3:before {
     border-left: 100px solid transparent;
-    border-top: 146px solid rgb(65, 73, 138);
+    border-top: 146px solid #242424;
     border-right: 0;
     content: "";
     position: absolute;
@@ -1218,7 +1220,7 @@ select option.option-test:hover {background-color: #F00;}
     height: 0;
 }
 .check-availability .grid_9 {
-    background-color: rgb(65, 73, 138);
+    background-color: #242424;
     position: relative;
 }
 .check-availability .grid_9 .md-booking {padding-left: 20px;}
@@ -2144,3 +2146,5 @@ html .ui-helper-clearfix {
 .md-home-body .widget-home-info {
     margin-bottom: 40px;
 }
+
+
