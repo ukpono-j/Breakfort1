@@ -1142,6 +1142,13 @@ select option.option-test:hover {background-color: #F00;}
     position: absolute;
     display: inline-block;
 }
+.fa-brands{
+    /* background-image: url('../images/sprite.png'); */
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    color: rgb(216, 216, 216);
+}
 .icon-calendar  {width: 17px; height: 19px; background-position: 0 0; margin-top: 12px; margin-left: 14px;}
 .icon-previous, .icon-next {width: 10px; height: 17px; left: 31px; top: 25px;}
 .icon-previous  {background-position: -75px 0;}
@@ -1153,7 +1160,7 @@ select option.option-test:hover {background-color: #F00;}
 .icon-facebook,
 .icon-twitter,
 .icon-google,
-.icon-dribbble {
+.icon-dribbble, .fa-instagram {
     top: 8px;
     left: 0;
     right: 0;
